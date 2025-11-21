@@ -1,0 +1,7 @@
+side = int(input("Enter a side of square:"))
+def area(side):
+    area = side * side
+    return area
+
+result = area(side)
+print("The area of the square is:",result)
