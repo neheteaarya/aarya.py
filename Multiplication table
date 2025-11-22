@@ -14,3 +14,11 @@ OUTPUT:-
 5 x 8 = 40
 5 x 9 = 45
 5 x 10 = 50
+
+📍{from number given through user}
+j = int(input("Enter a number:"))
+i = 1
+while i <= 10:
+    result = i*j
+    print(j ,'x',i,'=',result)
+    i+=1
