@@ -1,4 +1,4 @@
-side = int(input("Enter a side of square:"))
+side = float(input("Enter a side of square:"))
 def area(side):
     area = side * side
     return area
