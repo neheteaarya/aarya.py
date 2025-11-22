@@ -1,0 +1,8 @@
+side1 = float(input("Enter a side1 of triangle:"))
+side2 = float(input("Enter a side2 of traingle:"))
+
+def area():
+    area = side1 * side2
+    return area
+result = area()
+print("The area of the rectangle is:",result)
