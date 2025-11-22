@@ -1,4 +1,4 @@
-radius = int(input("Enter a radius of cicle:"))
+radius = float(input("Enter a radius of cicle:"))
 def perimeter(radius):
     perimeter = 2 * 3.14 * radius 
     return perimeter
