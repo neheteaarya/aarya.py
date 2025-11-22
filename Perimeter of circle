@@ -1,0 +1,7 @@
+radius = int(input("Enter a radius of cicle:"))
+def perimeter(radius):
+    perimeter = 2 * 3.14 * radius 
+    return perimeter
+
+result = perimeter(radius)
+print("The perimeter the circle is:",result)
