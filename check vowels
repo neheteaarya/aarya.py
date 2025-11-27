@@ -8,7 +8,7 @@ def integers():
     return integers
 if len(alphabate)==1:
     if alphabate in vowels():
-        print("The alphabate os a vowel")
+        print("The alphabate is a vowel")
     elif alphabate in integers():
         print("The alphabate is not consonant nor vowel")
     else:
