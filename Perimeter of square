@@ -1,0 +1,5 @@
+side =int(input("Enter the side of square is:"))
+def perimeter():
+    return 4 * side
+result = perimeter()
+print("The perimeter of of square is:",result)
