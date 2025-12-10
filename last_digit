@@ -1,0 +1,7 @@
+def digit():
+
+    n = int(input("Enter a  number:"))
+    last_digit = n % 10
+    return last_digit
+
+print("The last digit of the number is :",digit())
