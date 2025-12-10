@@ -1,0 +1,6 @@
+l =int(input("Enter the length of rectangle is:"))
+w =int(input("Enter the width of rectangle is:"))
+def perimeter():
+    return 2 *( l+w )
+result = perimeter()
+print("The perimeter of of rectangle is:",result)
