@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+import pandas as pd
+data = pd.read_csv(r"C:\Users\Arya Nehete\Downloads\archive\iris.csv")
+
+values = data["sepal_length"]
+plt.hist(values, bins=30, color= 'indigo', edgecolor = 'black')
+plt.title("histogram")
+plt.xlabel("sepal_length")
+plt.ylabel("Frequency")
+
+plt.show()
