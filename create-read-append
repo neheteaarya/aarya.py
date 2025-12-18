@@ -1,0 +1,20 @@
+def create_file(iris):
+    with open(iris, "w") as f:
+        f.write("This is the iris file.\n")
+        f.write("Python file handling is simple.\n")
+    print("File created and write successfully!\n")
+        
+iris = "Aarya.csv"
+create_file(iris)
+
+def file_read(iris):
+    with open(iris, "r") as f:
+        f.read()
+    print("File read successfully!\n")
+file_read(iris)
+
+def append_file(iris):
+    with open(iris,"a") as f:
+        f.write("New content is added in this file.")
+    print("The append instruction is successfully done!")
+append_file(iris)
