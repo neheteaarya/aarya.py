@@ -1,0 +1,9 @@
+def create_file(iris):
+    with open(iris,"w") as f:
+        f.write("This is the first line.\n")
+        f.write("Python file handling is simple.\n")
+        print("File created andd written successfully.")
+        
+iris = "Aarya.csv"
+create_file(iris)
+    
