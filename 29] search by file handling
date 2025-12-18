@@ -1,0 +1,33 @@
+def create_file(iris):
+    with open(iris, "w") as f:
+        f.write("This is the iris file.\n")
+        f.write("Python file handling is simple.\n")
+    print("File created and write successfully!\n")
+        
+iris = "Aarya.csv"
+create_file(iris)
+
+def file_read(iris):
+    with open(iris, "r") as f:
+        f.read()
+    print("File read successfully!\n")
+file_read(iris)
+
+def append_file(iris):
+    with open(iris,"a") as f:
+        f.write("New content is added in this file.")
+    print("The append instruction is successfully done!")
+append_file(iris)
+
+def search_file(iris):
+    with open(iris,"r") as f:
+        found = False
+        content = f.read()
+    if 'Aarya' in iris:
+        found = True
+        print("String exists!")
+    else:
+        print("String does not exists!")
+        
+iris = r"C:\Users\Arya Nehete\Downloads\archive\iris.csv"
+search_file(iris)
